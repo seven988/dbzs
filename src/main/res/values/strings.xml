@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">倒班助手</string>
+    <string-array name="shift_types">
+        <item>早班</item>
+        <item>中班</item>
+        <item>夜班</item>
+        <item>休息</item>
+    </string-array>
+    <string-array name="weekday_names">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+</resources>

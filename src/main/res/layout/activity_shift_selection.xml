@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="已选：0/8"/>
+
+    <Button
+        android:id="@+id/btnEarly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="早班"
+        android:backgroundTint="@color/early_shift"/>
+    <Button
+        android:id="@+id/btnMid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="中班"
+        android:backgroundTint="@color/mid_shift"/>
+    <Button
+        android:id="@+id/btnLate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="晚班"
+        android:backgroundTint="@color/late_shift"/>
+    <Button
+        android:id="@+id/btnOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="休息"
+        android:backgroundTint="@color/day_off"/>
+
+    <!-- 类似添加中班、晚班、休息按钮 -->
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:enabled="false"/>
+
+</LinearLayout>
